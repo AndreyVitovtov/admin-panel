@@ -1,0 +1,30 @@
+{
+  "name": "andre/admin-panel",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Vitovtov",
+      "email": "andrey.vitovtov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\Controllers\\": "app/controllers/",
+      "App\\Models\\": "app/models/",
+      "App\\Core\\": "app/core/"
+    },
+    "files": [
+      "app/core/config.php",
+      "app/core/functions.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "php": "^7.3",
+    "ext-mbstring": "*",
+    "ext-openssl": "*"
+  }
+}

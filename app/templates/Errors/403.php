@@ -1,0 +1,1 @@
+<h1 class="text-center m-5"><?= __('access denied') ?> 403</h1>

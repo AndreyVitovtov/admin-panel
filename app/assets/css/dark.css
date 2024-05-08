@@ -1,0 +1,29 @@
+:root {
+    --font: 'Montserrat';
+    --bg-content: #20232A;
+    --bg-menu: #2B303B;
+    --bg-main-content: #242731;
+    --bg-button: #393F4E;
+    --bg-button-hover: #4F5570;
+    --bg-active-dropdawn-menu: #2B303B;
+    --bg-hover-dropdown-menu: #393F4E;
+    --bg-dropdown-menu: #2B303B;
+    --color-button: #FFFFFF;
+    --color-button-hover: #C0C0C0;
+    --color-box-shadow: #3A3F4B;
+    --color-border: #404550;
+    --color-page-title: #EAEAEA;
+    --color-logo: #FFFFFF;
+    --color-item-menu: #AAB0C6;
+    --color-item-menu-hover: #C0C5D9;
+    --color-item-menu-active: #FFFFFF;
+    --color-header-text: #EAEAEA;
+    --color-white: #FFFFFF;
+    --color-text: #EAEAEA;
+    --size-header-text: 15px;
+    --size-page-title: 20px;
+    --size-logo: 24px;
+    --size-item-menu: 14px;
+    --time: 0.2s;
+    --width-table-action: 215px;
+}

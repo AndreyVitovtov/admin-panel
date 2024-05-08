@@ -1,0 +1,26 @@
+{
+  "login": "Логін",
+  "password": "Пароль",
+  "sign in": "Вхід",
+  "settings": "Налаштування",
+  "logout": "Вихід",
+  "search": "Пошук",
+  "dashboard": "Панель приладів",
+  "users": "Користувачі",
+  "mailing": "Розсилка",
+  "add": "Додати",
+  "archive": "Архів",
+  "name": "Ім’я",
+  "repeat password": "Повторіть пароль",
+  "avatar": "Аватар",
+  "save": "Зберегти",
+  "administrators": "Адміністратори",
+
+  "incorrect login or password": "Неправильний логін або пароль",
+  "password mismatch": "Паролі не збігаються",
+  "extension not allowed": "Розширення не дозволено, виберіть файл {extensions}.",
+  "file size must be less": "Розмір файлу має бути менше ніж {mb} MB",
+  "failed to upload file": "Не вдалося завантажити файл",
+  "access denied": "Access denied",
+  "page not found": "Page not found"
+}

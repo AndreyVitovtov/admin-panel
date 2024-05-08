@@ -1,0 +1,31 @@
+.login-container {
+    margin-top: 100px;
+}
+
+.card-header {
+    background-color: var(--bg-menu) !important;
+    color: var(--color-logo);
+}
+
+.btn-primary {
+    background-color: var(--bg-button);
+    color: var(--color-button);
+    border-color: var(--color-border);
+}
+
+.btn-primary:hover {
+    background-color: var(--bg-button-hover);
+    color: var(--color-button-hover);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 var(--color-box-shadow);
+    border: 1px solid var(--color-border);
+}
+
+.card-header h5 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
