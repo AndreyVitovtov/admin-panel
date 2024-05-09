@@ -22,11 +22,20 @@ function getControllerAndMethod(): array
 	$url = array_values(array_filter(explode('/', $_SERVER['REQUEST_URI']), function ($v) {
 		return !empty(trim($v));
 	}));
-
-	if (empty($url)) {
+	if (empty($url) || (isset($url[0][0]) && $url[0][0] === '?')) {
 		$controllerName = 'Main';
 		$method = 'index';
-		$params = [];
+		if (isset($url[0][0]) && $url[0][0] === '?') {
+			$params = explode('&', substr($url[0], 1));
+			$params = array_map(function ($v) {
+				$v = explode('=', $v);
+				return [
+					$v[0] => $v[1]
+				];
+			}, $params);
+		} else {
+			$params = [];
+		}
 	} else {
 		$controllerName = ucfirst($url[0]);
 		if (strpos($controllerName, '?') !== false) {
