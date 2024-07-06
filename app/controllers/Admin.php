@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Core\Request;
 use App\Models\AdminModel;
+use App\Utility\Request;
 
 class Admin extends Controller
 {

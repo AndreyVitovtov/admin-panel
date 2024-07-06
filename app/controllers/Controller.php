@@ -46,6 +46,7 @@ class Controller
 		$params['theme'] = theme();
 		extract(getSessionParams());
 		extract($params);
+		$template = ucfirst($template);
 		require_once 'app/templates/main.php';
 		return $this;
 	}

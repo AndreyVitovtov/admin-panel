@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-use App\Core\Request;
 use App\Models\AdminModel;
 use App\Models\Model;
 use App\Models\Role;
+use App\Utility\Request;
 
 class Administrators extends Controller
 {

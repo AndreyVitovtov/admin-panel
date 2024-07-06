@@ -4,6 +4,7 @@ const DEV = true;
 
 const BASE_URL = 'https://sitename.com';
 const DEFAULT_LANG = 'en';
+const TIMEZONE = 'Europe/Kiev';
 
 
 /* DATABASE */

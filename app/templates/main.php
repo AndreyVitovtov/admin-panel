@@ -1,4 +1,4 @@
-<?php use App\Core\Request; ?>
+<?php use app\utility\Request; ?>
 
 <!doctype html>
 <html lang="en">

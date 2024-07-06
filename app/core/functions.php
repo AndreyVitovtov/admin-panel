@@ -96,7 +96,7 @@ function handleRoute()
 
 	$controllerInstance = new $controllerClass();
 	if (method_exists($controllerInstance, $method)) {
-		$params[] = (new \App\Core\Request());
+		$params[] = (new \App\Utility\Request());
 		$params = array_filter($params, function($v) {
 			return !empty($v);
 		});
